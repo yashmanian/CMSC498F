@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+	
+ <node pkg="adventure_slam" type="adventure_slam.py" name="adventure_slam">
+ </node>
+
+ <rosparam command="load" ns = "/" file="$(find adventure_slam)/param.yaml"/>
+
+</launch>

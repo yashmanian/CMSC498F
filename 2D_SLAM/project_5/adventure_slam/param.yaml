@@ -1,0 +1,11 @@
+# Velocity PID (related to keeping the distance to wall)
+RANSAC_thresh: 0.003 #1.5
+min_outliers: 80 #0.5
+dist_thresh: 0.05 #0.4
+angle_thresh: 0.1
+x_offset: 0.145
+y_offset: 0.0475
+max_dist: 10
+max_shift: 0.1
+odometry : "/odom"
+
